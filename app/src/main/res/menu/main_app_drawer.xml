@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_phieuMuon"
+            android:icon="@drawable/phieumuon"
+            android:title="@string/mnu_pM" />
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/mnu_sach" />
+        <item
+            android:id="@+id/nav_loaiSach"
+            android:icon="@drawable/loaisach"
+            android:title="@string/mnu_lSach" />
+
+        <item
+            android:id="@+id/nav_thanhVien"
+            android:icon="@drawable/ic_gioithieu"
+            android:title="@string/mnu_tv" />
+
+        <item android:title="Thống Kê" >
+            <menu>
+                <item
+                    android:id="@+id/nav_top"
+                    android:icon="@drawable/ic_thong_ke_24dp"
+                    android:title="@string/mnu_top" />
+                <item
+                    android:icon="@drawable/ic_attach_money_black_24dp"
+                    android:id="@+id/nav_doanhThu"
+                    android:title="@string/mnu_dThu"
+                    />
+            </menu>
+        </item>
+
+        <item android:title="Quản lý hệ thống">
+
+            <menu>
+                <item
+                    android:icon="@drawable/add_user"
+                    android:id="@+id/nav_themNguoiDung"
+                    android:visible="false"
+                    android:title="@string/mnu_add"
+                    />
+
+                <item
+                    android:icon="@drawable/ic_key"
+                    android:id="@+id/nav_doiMatKhau"
+                    android:title="@string/mnu_rePass"
+                    />
+
+                <item
+                    android:icon="@drawable/ic_logout"
+                    android:id="@+id/sub_Logout"
+                    android:title="@string/mnu_out" />
+            </menu>
+        </item>
+
+    </group>
+</menu>

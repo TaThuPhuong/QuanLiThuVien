@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog"
+    android:padding="10dp">
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/grey_dam"
+        android:gravity="center_horizontal"
+        android:id="@+id/titleThemLoaiSach"
+        android:text="THÊM LOẠI SÁCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/them_loai_sach"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/background_edttext"
+            android:padding="12dp"
+            android:drawableTint="@color/grey_dam"
+            android:textColorHint="@color/grey_dam"
+            android:drawableRight="@drawable/ic_mota"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập loại sách"
+            android:textSize="16dp"/>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:id="@+id/xoaText"
+                android:text="Hủy"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_ui"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:background="@drawable/bg_ui"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:id="@+id/btnThemLoaiSach"
+                android:text="Thêm"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_phieuMuon">
+
+    <fragment
+        android:id="@+id/nav_phieuMuon"
+        android:name="com.example.libmana.ui.phieuMuon.phieuMuonFragment"
+        android:label="@string/mnu_pM"
+        tools:layout="@layout/fragment_phieu_muon" />
+
+    <fragment
+        android:id="@+id/nav_loaiSach"
+        android:name="com.example.libmana.ui.loaiSach.loaiSachFragment"
+        android:label="@string/mnu_lSach"
+        tools:layout="@layout/fragment_loai_sach" />
+
+    <fragment
+        android:id="@+id/nav_Sach"
+        android:name="com.example.libmana.ui.Sach.SachFragment"
+        android:label="@string/mnu_sach"
+        tools:layout="@layout/fragment_sach" />
+
+    <fragment
+        android:id="@+id/nav_thanhVien"
+        android:name="com.example.libmana.ui.thanhVien.thanhVienFragment"
+        android:label="@string/mnu_tv"
+        tools:layout="@layout/thanh_vien_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_doanhThu"
+        android:name="com.example.libmana.ui.doanhThu.doanhThuFragment"
+        android:label="@string/mnu_dThu"
+        tools:layout="@layout/doanh_thu_fragment"/>
+    <fragment
+        android:id="@+id/nav_top"
+        android:name="com.example.libmana.ui.top10.top10_Fragment"
+        android:label="@string/mnu_top"
+        tools:layout="@layout/top_fragment"/>
+    <fragment
+        android:id="@+id/nav_themNguoiDung"
+        android:visible="false"
+        android:name="com.example.libmana.ui.themTV.themThanhVienFragment"
+        android:label="@string/mnu_add"
+        tools:layout="@layout/them_nguoi_dung_fragment"/>
+    <fragment
+        android:id="@+id/nav_doiMatKhau"
+        android:name="com.example.libmana.ui.doiMatKhau.doiMatKhauFragment"
+        android:label="@string/mnu_rePass"
+        tools:layout="@layout/doi_mat_khau_fragment"/>
+</navigation>

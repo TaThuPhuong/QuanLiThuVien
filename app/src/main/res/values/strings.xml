@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LibMaNa</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mnu_pM">Quản Lý Phiếu Mượn</string>
+    <string name="mnu_sach">Quản Lý Sách</string>
+    <string name="mnu_lSach">Quản Lý Loại Sách</string>
+    <string name="mnu_tv">Quản Lý Thành Viên</string>
+
+    <string name="mnu_top">TOP 10 sách mượn nhiều nhất</string>
+    <string name="mnu_dThu">Doanh Thu</string>
+
+    <string name="mnu_add">Thêm Thủ Thư</string>
+    <string name="mnu_rePass">Đổi mật khẩu</string>
+    <string name="mnu_out">Đăng xuất</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

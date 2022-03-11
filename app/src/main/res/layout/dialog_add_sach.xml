@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:padding="10dp"
+    android:background="@drawable/background_dialog">
+
+    <TextView
+        android:textColor="@color/grey_dam"
+        android:layout_marginTop="10dp"
+        android:id="@+id/titleThemSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="THÊM SÁCH"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/ten_sach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:drawableRight="@drawable/ic_mota"
+            android:padding="12dp"
+            android:textColorHint="@color/grey_dam"
+            android:drawableTint="@color/grey_dam"
+            android:background="@drawable/background_edttext"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:hint="Nhập tên sách"
+            android:textSize="16dp"
+            />
+
+
+        <EditText
+
+            android:id="@+id/tien_thue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background_edttext"
+            android:drawableRight="@drawable/ic_money"
+            android:drawableTint="@color/grey_dam"
+            android:hint="Giá Thuê"
+            android:inputType="number"
+            android:padding="12dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="8dp"
+            android:textColorHint="@color/grey_dam"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:id="@+id/spLoaiSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/xoaTextSach"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_ui"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Hủy"
+                />
+
+            <Button
+                android:id="@+id/btnLuuThemSach"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_ui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+
+                android:text="Thêm"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
